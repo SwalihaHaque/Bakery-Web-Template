@@ -1,0 +1,370 @@
+
+/*extra extra large*/
+/*
+@media (min-width:1441px) and (max-width: 1960px){
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: -30px;
+    }
+    .title{
+        margin-right: 6%;
+    }
+    .navbar {
+       margin-right: -6%;
+    }
+    #navlist {
+        margin-right: 15%;
+        margin-bottom: 0;
+    }
+    #home{
+        height: 100vh;
+    }
+    .content{
+        top: 65%;
+        left: 27%;
+    }
+    .content h1{
+        
+    }
+    .content p{
+       
+    }
+    button{
+        margin-top: 10px;
+    }
+    .btn{
+        font-size: 0.5rem;
+        padding: 10px;
+     }
+    #about-us{
+       
+    }
+    .right img{
+        width: 600px;
+        height: 300px;
+        margin-right: 10%;
+        margin-top: 5%;
+     }
+     .left{
+        margin-bottom: 10px;
+        padding: 0px;
+        margin-top: 5%;
+     }
+    .left h2{
+        font-size: 1rem;
+    }
+    .left p{
+        font-size: 0.5rem;
+    }
+    .card img{
+       width: 80%;
+    }
+    .card img:hover{
+        width: 320px;
+        height: 320px;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    .card-title{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .map{
+        width: 650px;
+        margin-left: 20%;
+    }
+    .rate-heading{
+       font-size: 30px;
+    }
+    .rate{
+        font-size: 40px;
+    }
+    .review_form p{
+        font-size: 30px;
+    }
+}
+*/
+/********** Large devices only **********/
+@media (min-width: 1200px) and (max-width: 1440) {
+    .logo{
+        width: 110px;
+        height: 100px;
+        margin-left: 50px;  /* kaj kore na */
+    }
+    #navlist {
+        margin-right: 20%;
+    }
+    #home{
+        height: 140vh;
+    }
+    .content{
+        top: 60%;  /* kaj kore na */
+    }
+    .contact{
+        width: 320px;
+        
+     }   
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #navlist {
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+    #home{
+       height: 140vh;
+    }
+    .content{
+        top: 60%;
+    }
+    .right{
+        padding: 30px;
+        margin-top: 20px;  
+    }
+    .left{
+        padding: 30px;
+        margin-top: 30px;
+    }
+    .card .card-text h1{
+        font-size: 1.2rem;
+    }
+    .swaliha{
+        width: 90%;
+    }
+    .service_card{
+        width: 20%;
+    }
+    .service_card .card-title{
+        font-size: 1rem;
+    }
+    .service_card .card-text{
+        font-size: 1rem;
+    }
+    .map{
+        width: 450px; 
+    }
+    .contact{
+        width: 250px;  
+     }
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo{
+        width: 110px;
+        height: 100px;
+        margin-left: 20px; 
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 35px;
+        text-align: center;
+        margin-right: -3%;
+    }
+    #navlist {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    #navlist li a {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    #home{
+        height: 140vh;
+    }
+    .content{
+        top: 70%;
+        left: 70%;
+    }
+    .content h1{
+        font-size: 1.5rem;
+        margin-right: 40%;  
+    }
+    .content p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-right: 50%;
+        margin-left: 10%;
+     }
+     button{
+        margin-right: 40%;
+    }
+    #about-us{
+        height: 800px;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        margin-right: 1%;
+    }
+    .right img{
+        width: 350px;
+        height: 250px;
+     }
+    .left{
+        width: 100%;
+        margin-top: -38px;
+        margin-right: 20%;
+    }
+    .card{
+        width: 40%;
+    }
+    .card img{
+        width: 75%;
+     }
+     .card img:hover{
+        width: 85%;
+     }
+     .card .card-text h1{
+        font-size: 20px;
+    }
+    .container_form{
+        display: grid;
+        text-align: center;
+    }
+    .order_form{ 
+        width: 100%;
+    }
+    .location{
+        width: 100%;
+    }
+    .map{
+        width: 650px;
+    }
+    .contact{
+        width: 190px;  
+     }
+}
+
+/********** Extra small devices only **********/
+@media (min-width:501px) and (max-width: 767px) {
+    .logo{
+        width: 110px;
+        height: 100px;
+        margin-left: 20px; 
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 35px;
+        text-align: center;
+        margin-right: -1%;
+        
+    }
+    #navlist {
+        margin-left: 10%;
+    }
+    #navlist li a {
+        font-size: 1rem;
+        padding: 0px !important;
+    }
+    #home{
+        height: 140vh;
+    }
+    .content{
+        top: 70%;
+        left: 50%;
+    }
+    #about-us{
+        height: 800px;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        margin-right: -1%;
+    }
+    .left{
+        width: 100%;
+        margin-top: -80px;
+        margin-left: 0%;
+    }
+    .card img{
+        width: 80%;
+     }
+     .card img:hover{
+        width: 90%;
+        height: auto;
+     }
+     .card .card-text h1{
+        font-size: 20px;
+    }
+    .container_form{
+        display: grid;
+        text-align: center;
+    }
+    .order_form{ 
+        width: 100%;
+    }
+    .location{
+        width: 100%;
+    }
+    .map{
+        width: 650px;
+    }
+    .contact{
+        width: 190px;  
+     }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media all and (max-width: 500px) {
+   /* .head{
+        height: 30vh;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .navbar{
+        padding: 10px;
+        position: relative;
+    }
+    #navlist{
+        flex-direction: column;
+        display: none;
+       
+    }
+    #navlist li{
+        color: #fff;
+        display: block;
+    } */
+    #toggle-nav{
+        display: block;
+        color: #fff;
+        position: absolute;
+    }
+    #home{
+        height: 140vh;
+    }
+    .content{
+        top: 65%;
+    }
+    #about-us{
+        height: 800px;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    .left{
+        width: 100%;
+        margin-top: -30px;
+    }
+    .card img{
+        width: 80%;
+     }
+     .card img:hover{
+        width: 90%;
+        height: auto;
+     }
+     .card .card-text h1{
+        font-size: 20px;
+    }
+   
+}
